@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pageOne {
+    display: flex;
+    height: 95vh;
+    background-color: #F9F9F9;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right {
+    flex: 1;
+}
+.right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logoSVG {
+    align-self: flex-start;
+    margin-left: 4vw;
+    margin-top: -1vh;
+}
+
+.article {
+    align-self: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #242424;
+}
+
+.article h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 54px;
+}
+
+.article p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 32px;
+}
+
+.button {
+    border-radius: 30px;
+    width: 122px;
+    background-color: #0B0606;
+    color: white;
+    height: 40px;
+    font-weight: 500;
+    font-style: 1rem;
+    border: none;
+}
+
+.nextArticle {
+    align-self: flex-end;
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 32px;
+    margin-right: 2.5rem;
+}
+
+.nextArticle img {
+    margin-left: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.navLeft {
+    flex: 2;
+    margin-left: 2%;
+}
+
+.navRight {
+    flex: 1;
+}
+
+.navlink {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bottomPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: #F9F9F9;
+}
+
+.bottomPageTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 10rem 2rem 10rem;
+}
+
+.leftBottomPageTop {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.articleBottom {
+    align-self: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #242424;
+}
+
+.articleBottom h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 48px;
+    letter-spacing: -5%;
+}
+
+.articleBottom p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 24px;
+}
+
+.rightBottomPageTop {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.aboutMe {
+    align-self: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #242424;
+}
+
+.aboutMe h1 {
+    font-size: 2rem;
+}
+
+.nextPage {
+    display: flex;
+    justify-content: center;
+}
+
+.nextPage img {
+    margin-left: 1rem;
+}
+
+.newsletterContainer {
+    background: linear-gradient(180deg, #F8F8F8 100%, #FFFFFF 100%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletterContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 2rem;
+}
+
+.newsletterContent h1 {
+    font-size: 2rem;
+}
+
+.newsletterContent p {
+    width: 70%;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.6rem;
+    width: 300px;
+}
+
+.form button {
+    width: 300px;
+    gap: 0.6rem;
+}
+
+.emailInput {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.emailInput input {
+    width: 480px;
+    height: 32px;
+    border-radius: 30px;
+    border: 2px solid #CFCFCF;
+    margin-top: 2px;
+}
+
+.divCheckbox {
+    width: 400px;
+    margin: 10px;
+}
+
+.checkbox {
+    border: 2px solid #CFCFCF;
+    margin: 0.5rem;
+}
+
+.footer {
+    align-self: center;
+    height: 3vh;
+    background-color: #292929;
+    width: 100%;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.64;
+    line-height: 14px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
